@@ -12,7 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- require("lazy").setup({ { import = "osepyan.plugins" } })
-require("lazy").setup("osepyan.plugins", {
+require("lazy").setup({ { import = "osepyan.plugins" }, { import = "osepyan.plugins.lsp"} }, {
   checker = {
     enabled = true,
     notify = false,
