@@ -65,7 +65,7 @@ return {
           { "fileformat" },
           { "filetype" },
         },
-      },      
+      },
     })
   end,
 }
