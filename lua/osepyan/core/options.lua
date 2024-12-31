@@ -1,4 +1,5 @@
 vim.cmd("let g:netrw_liststyle = 3")
+-- vim.g.python3_host_prog = vim.fn.expand("~/.virtualenvs/neovim/bin/python3")
 
 local opt = vim.opt
 
